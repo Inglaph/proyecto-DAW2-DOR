@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
-
+import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-store',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './store.component.html',
   styleUrl: './store.component.css'
 })
